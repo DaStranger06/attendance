@@ -1,9 +1,16 @@
 <?php
 
-$host = 'localhost';
-$db = 'attandance_db';
-$user = 'root';
-$pass = '';
+// $host = 'localhost';
+// $db = 'attandance_db';
+// $user = 'root';
+// $pass = '';
+// $charset = 'utf8mb4';
+
+//remote db 
+$host = 'sql6.freesqldatabase.com';
+$db = 'sql6480804';
+$user = 'sql6480804';
+$pass = '8UyTAGntjK';
 $charset = 'utf8mb4';
 
 $dsn  = "mysql:host=$host;dbname=$db;charset=$charset";
